@@ -84,8 +84,7 @@ async def main():
         os.system("clear")
         await client.load_extension("jishaku")
         await load()
-        await client.start(token)
-
+        await client.run(TOKEN)
 
 if __name__ == "__main__":
     asyncio.run(main())
